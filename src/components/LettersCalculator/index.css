@@ -1,0 +1,53 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-container {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 36px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.label-heading {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: normal;
+}
+.input {
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #219a6f;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  border-radius: 15px;
+  outline: none;
+  border-width: 0;
+}
+
+.image {
+  width: 50%;
+  align-self: flex-end;
+  margin-left: 100px;
+}
